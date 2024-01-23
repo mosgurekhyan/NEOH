@@ -1,0 +1,82 @@
+.scrollTop {
+    position: fixed;
+    right: 4%;
+    top: 500px;
+    z-index: 1000;
+}
+
+.svg {
+    width: 104px;
+    height: 104px;
+    transform: rotateZ(-90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .7s;
+}
+
+.scrollTop:hover .arrowUp {
+    color: #78f701;
+}
+
+.scrollTop:hover {
+    cursor: pointer;
+}
+
+.track {
+    fill: none;
+    stroke: transparent;
+}
+
+.progress {
+    fill: none;
+    stroke: #78f701;
+    stroke-width: 2;
+    stroke-dasharray: 314;
+}
+
+.scrollDivUp {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 20px;
+    z-index: 1000;
+}
+
+
+@keyframes arrowAnimationUp {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    25% {
+        opacity: 0.25;
+        transform: translateY(75%);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: translateY(50%);
+    }
+
+    75% {
+        opacity: 0.75;
+        transform: translateY(25%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.arrowUp {
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    animation: arrowAnimationUp 2s linear infinite;
+    color: #aaa;
+    font-size: 35px;
+    transition: 1.5s;
+}

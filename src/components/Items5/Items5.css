@@ -1,0 +1,37 @@
+.items5 {
+    width: 100%;
+    height: auto;
+    padding: 50px 3%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0A0A0A;
+}
+
+.items5Div1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 70px;
+    height: auto;
+}
+
+.items5Data {
+    width: 230px;
+    height: 130px;
+    background-color: #111;
+    display: grid;
+    place-items: center;
+    margin-bottom: 25px;
+    transition: .7s;
+}
+
+.items5Data:hover {
+    cursor: pointer;
+    box-shadow: 0 0px 20px 0 #78f701;
+}
+
+.items5Data img {
+    object-fit: cover;
+}

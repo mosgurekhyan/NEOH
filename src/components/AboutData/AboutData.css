@@ -1,0 +1,54 @@
+.aboutData {
+    width: 100%;
+    height: auto;
+    padding: 5% 3%;
+    display: flex;
+    justify-content: space-between;
+    background: #111;
+}
+
+.items6DataDiv {
+    border: 2px solid #666;
+    width: 390px;
+    height: auto;
+    padding: 5% 4%;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    transition: 1s;
+}
+
+.items6DataDiv:hover {
+    border-color: #78f701;
+}
+
+.items6DataDiv:hover .polygon4 {
+    background-color: #78f701;
+}
+
+.polygon4 {
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
+    width: 50%;
+    height: 8px;
+    background-color: #666;
+    position: absolute;
+    top: -1px;
+    left: 25%;
+    transition: 1s;
+}
+
+.items6DataDiv i {
+    color: #666666;
+    font-size: 40px;
+}
+
+.items6DataDiv h1 {
+    font-size: 24px;
+    margin: 20px 0 15px 0;
+    color: #ccc;
+}
+
+.items6DataDiv p {
+    color: #666;
+    font-size: 19px;
+}

@@ -1,0 +1,99 @@
+.admin {
+    width: 100%;
+    height: auto;
+    padding: 120px 3% 3%;
+    display: flex;
+    justify-content: space-between;
+    background: black;
+}
+
+.changeData {
+    height: auto;
+    text-align: center;
+}
+
+.adminH2 {
+    color: #fff;
+}
+
+.adminForm {
+    margin-top: 20px;
+    height: auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adminBtn {
+    background: #78f701;
+    color: black;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 6px;
+    transition: 1s;
+    font-weight: 700;
+    height: 35px;
+    width: fit-content;
+}
+
+.adminBtn:hover {
+    cursor: pointer;
+}
+
+.adminForm div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 330px;
+    margin-bottom: 17px;
+    position: relative;
+}
+
+.adminForm i {
+    color: #ccc;
+    font-size: 12px;
+    position: absolute;
+    right: 12px;
+    top: 11px;
+}
+
+.adminForm i:hover {
+    cursor: pointer;
+}
+
+.adminUl {
+    border-right: 1.5px solid #ccc;
+    width: 890px;
+    height: auto;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.adminUl li {
+    margin-bottom: 25px;
+    width: 400px;
+    height: auto;
+}
+
+.adminForm label {
+    color: #ccc;
+}
+
+.adminForm input {
+    background: none;
+    outline: none;
+    color: #eee;
+    border: solid 2px #ccc;
+    border-radius: 6px;
+    padding: 7px 15px;
+}
+
+.adminLine {
+    width: 100%;
+    background: #ccc;
+    height: 1.5px;
+    margin: 25px 0;
+}

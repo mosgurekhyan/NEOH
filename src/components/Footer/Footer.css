@@ -1,0 +1,87 @@
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #0a0a0a;
+}
+
+.footerDiv1 {
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    display: grid;
+    place-items: center;
+}
+
+.footerDiv11 {
+    width: 630px;
+    height: 400px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.footerDiv11 h1 {
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.footerDiv11 p {
+    font-size: 19px;
+    color: #cccccc;
+}
+
+.footerInputs {
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer input {
+    width: 390px;
+    padding: 0 15px;
+}
+
+.footer input, .footer button {
+    color: #eee;
+    border: 2px solid #666;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    background: none;
+}
+
+.footerBtn1 {
+    width: 150px;
+    transition: .7s;
+}
+
+.footerBtn1:hover {
+    cursor: pointer;
+    border-color: #78f701;
+}
+
+.footerBtn2 {
+    transition: .7s;
+    border: none !important;
+}
+
+.footerBtn2:hover {
+    color: #78f701;
+    cursor: pointer;
+}
+
+.footerDiv2 {
+    border-top: 1px solid rgba(255,255,255,.1);
+    width: 100%;
+    padding: 2% 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerDiv21 {
+    width: 380px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}

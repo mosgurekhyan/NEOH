@@ -1,0 +1,116 @@
+.homeDiv1 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.overlay1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -10;
+}
+
+.homeDiv11 {
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 500px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 190px 0 30px 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainTitle {
+    font-size: 90px;
+    color: #FFFFFF;
+    letter-spacing: 35px;
+    width: 357px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    height: 115px;
+    text-align: center;
+}
+
+.mainText {
+    color: #CCCCCC;
+    font-size: 24px;
+    height: 50px;
+}
+
+.scrollDiv {
+    width: 200px;
+    height: 110px;
+    margin: 0 auto;
+    margin-top: 110px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.scrollP {
+    color: #EEEEEE;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    transition: .7s;
+}
+
+.scrollDiv:hover {
+    cursor: pointer;
+}
+
+.scrollDiv:hover .scrollP,
+.scrollDiv:hover .arrowDown {
+    color: #78f701;
+}
+
+@keyframes arrowAnimation {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    25% {
+        opacity: 0.75;
+        transform: translateY(25%);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: translateY(50%);
+    }
+
+    75% {
+        opacity: 0.25;
+        transform: translateY(75%);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+}
+
+.arrowDown {
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    animation: arrowAnimation 2s linear infinite;
+    color: #aaa;
+    font-size: 35px;
+}
+
+.homeDiv2 {
+    width: 100%;
+}

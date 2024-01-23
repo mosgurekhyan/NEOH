@@ -1,0 +1,36 @@
+.news {
+    width: 100%;
+    height: auto;
+    padding: 80px 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111;
+}
+
+.newsData {
+    padding-top: 70px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsDataDiv {
+    width: 392px;
+    height: auto;
+    position: relative;
+    padding-right: 20px
+}
+
+.newsDataDiv h2 {
+    color: #ffffff;
+    font-size: 22px;
+    margin-top: 22px;
+}
+
+.newsDataDiv p {
+    color: #cccccc;
+    font-size: 19px;
+    margin-top: 20px;
+}

@@ -1,0 +1,349 @@
+.blogSingle {
+    width: 100%;
+    height: auto;
+    padding: 180px 3% 3% 3%;
+    background-color: #0a0a0a;
+}
+
+.share {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ccc;
+}
+
+.share p {
+    font-size: 20px;
+}
+
+.share i {
+    color: #ffffff;
+}
+
+.navigation {
+    width: 530px;
+    display: flex;
+    justify-content: space-between;
+    color: #ccc;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.navigation p {
+    transition: 1s;
+}
+
+.navigation p:hover {
+    cursor: pointer;
+    color: #78f701;
+}
+
+.blogImg {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 45px 0;
+}
+
+.polygons {
+    width: 375px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.polygon6, .polygon7, .polygon8 {
+    background-color: #252525;
+    display: grid;
+    place-items: center;
+    color: #aaaaaa;
+    height: 28px;
+    position: relative;
+}
+
+.polygon6, .polygon8 {
+    width: 120px;
+}
+
+.polygon6::after, .polygon7::before, .polygon7::after, .polygon8::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.polygon6::after {
+    border-width: 28px 0 0 12px;
+    border-color: transparent transparent transparent #252525;
+    left: 100%;
+}
+
+.polygon7 {
+    width: 100px;    
+}
+
+.polygon7::before {
+    border-width: 0 12px 28px 0;
+    border-color: transparent #252525 transparent transparent;
+    right: 100%;
+}
+
+.polygon7::after {
+    border-width: 28px 0 0 12px;
+    border-color: transparent transparent transparent #252525;
+    left: 100%;
+}
+
+.polygon8::before {
+    border-width: 0 12px 28px 0;
+    border-color: transparent #252525 transparent transparent;
+    right: 100%;
+}
+
+.blogSingleDiv {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogSingleDiv1 {
+    width: 69%;
+    height: auto;
+}
+
+.blogSingleDiv1 h1 {
+    color: #ffffff;
+    font-size: 37px;
+    margin: 22px 0;
+}
+
+.blogSingleDiv1 h4 {
+    color: #cccccc;
+}
+
+.blogSingleDiv1 p {
+    color: #cccccc;
+    font-size: 19px;
+    letter-spacing: .5px;
+    margin: 40px 0;
+}
+
+.blogSingleDiv11 {
+    border-radius: 10px;
+    height: 270px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 30px;
+    background-color: #252525;
+}
+
+.blogSingleDiv11 img {
+    object-fit: cover;
+    width: 190px;
+    height: 190px;
+    border-radius: 10px;
+}
+
+.blogSingleDiv11Data {
+    width: 575px;
+    height: auto;
+}
+
+.blogSingleDiv11Data h3 {
+    color: #FFF;
+    font-weight: lighter;
+    font-size: 21px;
+}
+
+.blogSingleDiv11Data p {
+    color: #ccc;
+    font-size: 18px;
+    margin: 18px 0;
+}
+
+.blogSingleDiv11Data div {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: #eee;
+}
+
+.blogSingleDiv2 {
+    border-left: 2px solid #292929;
+    width: 27%;
+    height: auto;
+    padding-left: 35px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog1 {
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.blog1 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+.blog1 img:hover {
+    transform: rotate(-10deg) scale(1.18);
+    cursor: pointer;
+}
+
+.blogH3 {
+    color: #fff;
+    margin: 20px 0 12px 0;
+}
+
+.blogA {
+    text-decoration: none;
+    color: #666;
+    font-size: 17px;
+}
+
+.blogA:hover {
+    text-decoration: underline;
+}
+
+.blogabout {
+    font-size: 19px;
+    color: #999999;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.signature {
+    object-fit: cover;
+}
+
+.polygon9 {
+    background-color: #252525;
+    width: 100%;
+    height: 35px;
+    display: grid;
+    place-items: center;
+    color: #ccc;
+    margin: 25px 0 50px 0;
+    position: relative;
+}
+
+.polygon9::before {
+    border-width: 0 0 35px 10px;
+    border-color: transparent transparent #252525 transparent;
+    left: 0;
+}
+
+.polygon9::before, .polygon9::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    top: 0;
+    background-color: #0a0a0a;
+}
+
+.polygon9::after {
+    border-width: 35px 0 0 10px;
+    border-color: transparent transparent transparent #252525;
+    right: 0;
+}
+
+.polygon9 span::after {
+    position: absolute;
+    clip-path: polygon(0 0, 50% 100%, 100% 0);
+    top: 100%;
+    left: 47%;
+    width: 6%;
+    height: 24%;
+    background-color: #252525;
+    content: '';
+}
+
+
+.blogIcons {
+    width: 260px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogIcons i {
+    color: #777;
+}
+
+.blog1Img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.blog2 {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background-color: #252525;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 30px;
+}
+
+.blog2 i {
+    color: #cccccc;
+    font-size: 40px;
+}
+
+.blog2 h2 {
+    color: #eee;
+    margin: 20px 0;
+}
+
+.blog2 p {
+    color: #cccccc;
+    font-size: 18px;
+    text-align: center;
+}
+
+.blog2 input {
+    outline: none;
+    margin: 15px 0 7px 0;
+    background: #2c2c2c;
+    border: 2px solid #666;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 15px;
+    color: #777;
+    width: 100%;
+    text-align: center;
+}
+
+.blog2 button {
+    outline: none;
+    background: #2c2c2c;
+    border: 2px solid #666;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    color: #eee;
+}
+
+.blog2 button:hover {
+    cursor: pointer;
+}

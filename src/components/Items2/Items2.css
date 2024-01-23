@@ -1,0 +1,112 @@
+.items2 {
+    width: 100%;
+    padding: 90px 3% 50px 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0a0a0a;
+}
+
+.items2Div1 {
+    color: #FFFFFF;
+    width: fit-content;
+}
+
+.line2 {
+    position: relative;
+    width: 140px;
+    height: 10px;
+    margin: 11px auto;
+}
+
+.line2::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 10px;
+    left: 50%;
+    margin-left: -2px;
+    background-color: #666;
+    border-radius: 10px;
+}
+
+.line2 span {
+    width: 140px;
+    display: block;
+    height: 2px;
+    background-color: #666;
+    position: absolute;
+    top: 4px;
+}
+
+.line2 span::before {
+    right: 50%;
+    margin-right: 12px;
+}
+
+.line2 span::before, .line2 span::after {
+    background-color: #666;
+    width: 2px;
+    position: absolute;
+    content: '';
+    z-index: 3;
+    margin-top: -3px;
+    height: 6px;
+    top: 50%;
+}
+
+.line2 span::after {
+    left: 50%;
+    margin-left: 12px;
+}
+
+.items2Div2 {
+    width: 100%;
+    padding: 5% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.items2Data {
+    border: 2px solid #CCCCCC;
+    width: 270px;
+    height: 280px;
+    padding: 40px 20px;
+    position: relative;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.items2Data:hover {
+    border-color: #78f701;
+    cursor: pointer;
+}
+
+.items2Data:hover .polygon {
+    background-color: #78f701;
+}
+
+.items2Data .polygon {
+    position: absolute;
+    transition: 1s;
+    background-color: #45444495;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    height: 30px;
+    width: 50px;
+    left: 0;
+    top: -32px;
+    display: grid;
+    place-items: center;
+    color: #FFF;
+}
+
+.items2Data h2 {
+    color: #FFFFFF;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.items2Data p {
+    color: #CCCCCC;
+    font-size: 18px;
+}

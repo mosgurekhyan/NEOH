@@ -1,0 +1,80 @@
+.items7 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 100px 3%;
+    flex-direction: column;
+    background-color: #111;
+}
+
+.visibleP {
+    color: #ccc;
+    width: 730px;
+    text-align: center;
+    height: 60px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.items7Div1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    row-gap: 40px;
+}
+
+.items7Data {
+    border: 2px #666 solid;
+    width: 392px;
+    height: 425px;
+    border-radius: 8px;
+    padding: 35px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    transition: 1s;
+}
+
+.items7Data:hover {
+    border-color: #78f701;
+    box-shadow: 0 0px 20px 0 #78f701;
+}
+
+.items7Data img {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+}
+
+.items7Data h2 {
+    margin: 18px 0 13px 0;
+    color: #ffffff;
+}
+
+.items7Data h3 {
+    color: #eee;
+}
+
+.polygon5 {
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    width: 90%;
+    height: 35px;
+    background-color: #252525;
+    clip-path: polygon(4% 0, 96% 0, 100% 100%, 0% 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.polygon5 i {
+    font-size: 18px;
+}

@@ -1,0 +1,131 @@
+.about {
+    width: 100%;
+    height: auto;
+}
+
+.aboutHeader {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.aboutHeaderDiv {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    display: grid;
+    place-items: center;
+    padding: 190px 0;
+}
+
+.aboutHeaderDiv h1 {
+    font-size: 70px;
+    color: #ccc;
+    font-weight: lighter;
+}
+
+.aboutHeaderDiv h3 {
+    color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+
+.aboutHeaderDiv p {
+    color: #ccc;
+    transition: .7s;
+}
+
+.aboutHeaderDiv h3:hover .aboutP1 {
+    cursor: pointer;
+    color: #78f701;
+}
+
+.aboutDiv1 {
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+
+
+.aboutDiv11 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    display: grid;
+    place-items: center;
+}
+
+.aboutDiv111:hover .progress2 {
+    stroke-dashoffset: 377;
+}
+
+.aboutDiv111 {
+    position: relative;
+}
+
+.aboutDiv111:hover {
+    cursor: pointer;
+}
+
+.circle2 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.098);
+    border-radius: 50%;
+}
+
+.svg2 {
+    width: 124px;
+    height: 124px;
+    transform: rotateZ(-90deg);
+    display: grid;
+    place-items: center;
+    transition: .7s;
+}
+
+.svg2:hover {
+    cursor: pointer;
+}
+
+.track2 {
+    fill: none;
+    stroke: transparent;
+}
+
+.progress2 {
+    fill: none;
+    stroke: #666;
+    stroke-width: 2;
+    stroke-dasharray: 377;
+    transition: 1s;
+}
+
+.triangle {
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+    width: 28%;
+    height: 28%;
+    background-color: #fff;
+    position: absolute;
+    top: 36%;
+    left: 36%;
+    transition: 1s;
+}
+
+.triangle:hover {
+    transform: scale(1.2);
+    background-color: #78f701;
+}
+
+.about video {
+    width: 60%;
+    height: 70%;
+    position: fixed;
+    top: 15%;
+    left: 0;
+    margin: 0 20%;
+    overflow: hidden;
+}

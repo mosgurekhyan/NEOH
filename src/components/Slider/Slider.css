@@ -1,0 +1,210 @@
+.slider {
+    width: 100%;
+    height: auto;
+    padding: 30px 3% 100px 3%;
+    background-color: #111111;
+    display: grid;
+    place-items: center;
+}
+
+.sliderDiv {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 50px 0 30px 0;
+}
+
+.section {
+    width: 100%;
+    height: 470px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    border: 2px solid #666;
+}
+
+article {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.3s linear;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagesDiv {
+    width: 670px;
+    height: 100%;
+    position: relative;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.img1 {
+    width: 390px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: all 1s ease;
+}
+
+.img23Div {
+    width: 183px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.img1Div {
+    width: 390px;
+    overflow: hidden;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.img2Div {
+    width: 183px;
+    overflow: hidden;
+    height: 187px;
+    border-radius: 5px;
+}
+
+.img1Div:hover img, .img2Div:hover img {
+    transform: rotate(-10deg) scale(1.26);
+    cursor: pointer;
+}
+
+.img23 {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: all 1s ease;
+}
+
+.articleData {
+    width: 590px;
+    height: auto;
+    padding: 0 35px;
+    position: relative;
+}
+
+.polygon2, .polygon3 {
+    clip-path: polygon(0 0, 88% 0, 100% 100%, 0% 100%);
+    position: absolute;
+    transition: 1s;
+    background-color: #45444495;
+    height: 30px;
+    width: 140px;
+    top: -30px;
+    display: grid;
+    place-items: center;
+    color: #FFF;
+}
+
+.polygon2 {
+    left: 35px;
+}
+
+.articleData h2 {
+    font-size: 23px;
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+
+.articleData p {
+    color: #CCCCCC;
+    font-size: 19px;
+}
+
+.articleData button, .newsDataDiv button {
+    width: 150px;
+    height: 50px;
+    margin-top: 35px;
+    color: #666;
+    background: none;
+    border: 2px solid #cccccc;
+    font-size: 17px;
+    border-radius: 5px;
+    transition: .7s;
+}
+
+.articleData button:hover, .newsDataDiv button:hover {
+    border-color: #78f701;
+    cursor: pointer;
+}
+  
+
+.dots {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+    align-items: center;
+    color: #78f701;
+    font-size: 18px;
+    position: relative;
+}
+
+.line3 {
+    background-color: #252525;
+    width: 98%;
+    height: 2px;
+    position: absolute;
+    left: 1%;
+    z-index: 0;
+}
+
+.slide {
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.slide p {
+    margin-top: 55px;
+    font-size: 16px;
+}
+
+.dot1 {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgba(199, 199, 199, 1);
+    transition: .5s;
+    z-index: 10;
+    position: absolute;
+}
+
+.dot2 {
+    width: 8px;
+    position: absolute;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #78f701;
+    transition: .5s;
+    z-index: 10;
+}
+  
+.slide:hover {
+    cursor: pointer;
+}
+  
+article.activeSlide {
+    opacity: 1;
+    transform: translateX(0);
+}
+  
+article.lastSlide {
+    transform: translateX(-100%);
+}
+  
+article.nextSlide {
+    transform: translateX(100%);
+}

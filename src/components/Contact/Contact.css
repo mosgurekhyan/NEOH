@@ -1,0 +1,82 @@
+.contact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactDiv {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #111;
+}
+
+.contactDiv1 {
+    width: 520px;
+    height: auto;
+    padding: 100px 0;
+}
+
+.contactDiv1 h3 {
+    color: #cccccc;
+    font-weight: 500;
+}
+
+.contactDiv1 input {
+    width: 100%;
+    background: #181818;
+    border: 2px solid #666;
+    color: #ccc;
+    outline: none;
+    margin: 8px 0 20px 0;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.contactInp {
+    height: 120px;
+}
+
+.contactDiv1 button {
+    width: 100%;
+    background: #181818;
+    border: 2px solid #666;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 15px;
+    color: #ccc;
+}
+
+.contactDiv1 button:hover {
+    cursor: pointer;
+    border-color: #78f701;
+}
+
+.contactDiv1 p {
+    font-size: 18px;
+    color: #777;
+    margin: 30px 0;
+}
+
+.contactDiv1 h4 {
+    font-size: 15px;
+    color: #777;
+    margin: 30px 0 10px 0;
+}
+
+.contactDiv1 h1 {
+    color: #fff;
+}
+
+.contactDiv1 a {
+    text-decoration: none;
+    color: #777;
+}
+
+.contactDiv1 a:hover {
+    text-decoration: underline;
+}

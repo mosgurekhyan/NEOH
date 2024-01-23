@@ -1,0 +1,13 @@
+.images {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 35px 0;
+    row-gap: 35px;
+}
+
+.image {
+    object-fit: cover;
+}
